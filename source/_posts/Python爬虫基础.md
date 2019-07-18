@@ -5,7 +5,6 @@ tags: python
 ---
 
 ## urllib库基础用法
----
 #### 导入urllib库
 ` import urllib.request `
 #### 将网页的内容赋值给data
@@ -20,7 +19,7 @@ tags: python
 #### 将网页爬到本地
 ` urllib.request.urlretrieve("https://read.douban.com/provider/all",C:\\Users\\DELL\\Desktop) `
 
-#### 清楚缓存 
+#### 清除缓存 
 ` urllib.request.urlcleanup() `
 #### 获取当前网页状态码 
 ` data.getcode() ` 

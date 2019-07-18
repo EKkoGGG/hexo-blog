@@ -81,7 +81,6 @@ deploy:
   type: git
   repo: 
     github: https://github.com/EKkoGGG/EKkoGGG.github.io.git
-    coding: https://git.dev.tencent.com/zeng2656891/zeng2656891.git
   branch: master
 # yilia全部文章配置
 jsonContent:

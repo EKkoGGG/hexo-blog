@@ -11,40 +11,22 @@ tags: hexo
 ## 一、安装hexo (其他环境略过) 
 
 1. npm install -g cnpm --registry=https://registry.npm.taobao.org
-
 > 因网络问题，先安装指向淘宝的cnpm
-
 2. cnpm install -g hexo-cli
-
 > 安装hexo框架
-
+3. hexo init
 <!-- more -->
-
-1. hexo init
-
 > 创建一个博客目录
-
 4. hexo s
-
 > 本地调试hexo博客
-
 5. hexo n "博客名字"
-
 > 新建博文
-
 6. hexo g
-
 > 生成博文
-
 7. cnpm install hexo-deloyer-git --save
-
 > 安装一键部署到github.io页面的工具
-
 8. hexo d
-
 > 全部博文同步到github.io页面
-
-
 
 ## 二、使用github.io托管个人博客
 
